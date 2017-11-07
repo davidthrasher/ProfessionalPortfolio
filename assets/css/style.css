@@ -1,17 +1,52 @@
-#headshot {
+#mainlogo {
   height: 100%;
+  -webkit-filter: brightness(100%);
+}
+#mainlogo:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
 }
 
 #tm {
   font-family: 'Cutive Mono', monospace;
-  color: lightgrey;
+  color: white;
+  margin-top: 50px;
+  -webkit-filter: brightness(100%);
+}
+#tm:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
 }
 .card {
  width:auto;
 }
 nav {
   height: 150px;
+}
+nav ul a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  -webkit-filter: brightness(100%);
+}
+nav ul a:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
 
+#eye {
+  margin-top: 75px;
 }
 
 #socialcontainer {
@@ -23,17 +58,26 @@ nav {
   margin-right: 20px;
 }
 
-/*nav ul a,
-nav .brand-logo {
-  color: #444;
-}*/
+
+.side-nav {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*========Materialize Sidebar grey out glitch fix*/
+.navbar-fixed{
+  z-index:998;
+}
+/*========Materialize Sidebar grey out glitch fix*/
 .button-collapse {
   color: #00695c;
 }
 
 .parallax-container {
   /*margin-top: 25px;*/
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -42,7 +86,7 @@ nav .brand-logo {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
+/*@media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -56,15 +100,4 @@ nav .brand-logo {
   #index-banner .section {
     top: 0;
   }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
+}*/
